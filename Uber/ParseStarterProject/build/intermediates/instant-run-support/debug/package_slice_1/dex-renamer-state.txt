@@ -1,0 +1,4 @@
+#Thu Nov 30 09:58:19 NZDT 2017
+base.0=D\:\\my-projects\\Android\\Uber\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex

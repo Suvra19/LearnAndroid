@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.subhr.twitter.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/my_toolbar"
+        android:id="@+id/userListView"/>
+
+    <!--<include
+        android:id="@+id/include"
+        layout="@layout/com_twitter_ui_login_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="start"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.5" />-->
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/profile_title"
+            style="@style/ParseLoginUI.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile_title_logged_in"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/profile_name"
+            style="@style/ParseLoginUI.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/profile_email"
+            style="@style/ParseLoginUI.TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"/>
+
+        &lt;!&ndash;<Button
+            android:id="@+id/login_or_logout_button"
+            android:layout_marginTop="@dimen/com_parse_ui_large_vertical_spacing"
+            style="@style/ParseLoginUI.Button"
+            android:text="@string/profile_logout_button_label" />&ndash;&gt;
+       &lt;!&ndash; <Button
+            android:id="@+id/logout_button"
+            style="@style/ParseLoginUI.Button"
+            android:layout_marginTop="@dimen/com_parse_ui_large_vertical_spacing"
+            android:text="@string/profile_logout_button_label"/>&ndash;&gt;
+
+    </LinearLayout>-->
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="26"
+    build-mode="HOT_WARM"
+    density="420dpi"
+    format="10"
+    plugin-version="3.0.1"
+    timestamp="1511949859084"
+    token="5506324224344359941"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1511947240899"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\outputs\apk\debug\ParseStarterProject-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1511949607679"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1511949746105"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\builds\debug\1511949746105\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1511949796854"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\builds\debug\1511949796854\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1511949859084"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\my-projects\Parse-Server-Starter-Project\ParseStarterProject\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+
+</instant-run>
