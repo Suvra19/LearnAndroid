@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '28.0.2'
+    defaultConfig {
+        applicationId "com.android.example.favoritetoys"
+        minSdkVersion 22
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:25.1.0'
+    // TODO (7) Remove the ConstraintLayout dependency as we aren't using it for these simple projects
+    //implementation 'com.android.support.constraint:constraint-layout:1.0.0-beta4'
+}
